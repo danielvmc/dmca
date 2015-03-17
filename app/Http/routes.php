@@ -16,4 +16,5 @@ Route::controllers([
 /**
  * Notices
  */
+Route::get('notices/confirm', 'NoticesController@confirm');
 Route::resource('notices', 'NoticesController');
