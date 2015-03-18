@@ -136,8 +136,8 @@ return [
         'Illuminate\Validation\ValidationServiceProvider',
         'Illuminate\View\ViewServiceProvider',
         'Collective\Html\HtmlServiceProvider',
-
         'Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider',
+        'Laracasts\Flash\FlashServiceProvider',
         /*
          * Application Service Providers...
          */
@@ -196,6 +196,7 @@ return [
         'View' => 'Illuminate\Support\Facades\View',
         'Form' => 'Collective\Html\FormFacade',
         'Html' => 'Collective\Html\HtmlFacade',
+        'Flash' => 'Laracasts\Flash\Flash',
     ],
 
 ];
